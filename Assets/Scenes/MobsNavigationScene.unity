@@ -1349,9 +1349,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7688205156100200268, guid: 5eec7b0d505b5794f893620336f01b83, type: 3}
+      propertyPath: maxAngle
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688205156100200268, guid: 5eec7b0d505b5794f893620336f01b83, type: 3}
+      propertyPath: minAngle
+      value: -35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7688205156100200268, guid: 5eec7b0d505b5794f893620336f01b83, type: 3}
+      propertyPath: RotationSpeed
+      value: 750
+      objectReference: {fileID: 0}
     - target: {fileID: 8728266450918936729, guid: 5eec7b0d505b5794f893620336f01b83, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977111365720089164, guid: 5eec7b0d505b5794f893620336f01b83, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8977111365720089164, guid: 5eec7b0d505b5794f893620336f01b83, type: 3}
+      propertyPath: jumpForce
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2155,6 +2175,8 @@ GameObject:
   - component: {fileID: 2068197542}
   - component: {fileID: 2068197541}
   - component: {fileID: 2068197543}
+  - component: {fileID: 2068197544}
+  - component: {fileID: 2068197545}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -2218,6 +2240,43 @@ MonoBehaviour:
   - {fileID: 1875275976}
   - {fileID: 271713440}
   player: {fileID: 53493420}
+  viewAngle: 90
+--- !u!114 &2068197544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068197540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ac30e3aded26df428f626c937d50c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 100
+--- !u!136 &2068197545
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2068197540}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.25
+  m_Height: 1.4
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.7, z: 0}
 --- !u!1 &2124823654
 GameObject:
   m_ObjectHideFlags: 0
