@@ -1103,7 +1103,7 @@ MonoBehaviour:
   CameraAxisTransform: {fileID: 4416914884812726035}
   minAngle: -35
   maxAngle: 25
-  RotationSpeed: 750
+  RotationSpeed: 500
 --- !u!114 &8977111365720089164
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1189,6 +1189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grenadePrefab: {fileID: 3979187363515126659, guid: 5e287f359423fc5478a3ed90107f5603, type: 3}
+  ShootSound: {fileID: 0}
   grenadeSourceTransform: {fileID: 3257169205096539051}
   force: 500
 --- !u!1001 &7880082320838555751
