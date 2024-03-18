@@ -54,7 +54,6 @@ public class PlayerController : MonoBehaviour
 
 
 
-
     void FixedUpdate()
     {
         _characterController.Move(_moveVector * speed * Time.fixedDeltaTime);
