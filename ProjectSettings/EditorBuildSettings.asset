@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MobsNavigationScene.unity
     guid: 578a6c6d29d823047b114702e3e01816
+  - enabled: 1
+    path: Assets/Scenes/END.unity
+    guid: 4ad4ac3f0be11f54daba600b1b04a63c
+  - enabled: 1
+    path: Assets/Scenes/test.unity
+    guid: 4959e741cf98d9b49b8a5c5fdd4e72e5
+  - enabled: 1
+    path: Assets/Scenes/Start.unity
+    guid: c4cc8220a1e60854da5e0324b93e29de
   m_configObjects: {}

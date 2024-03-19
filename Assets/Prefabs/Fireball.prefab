@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   lifetime: 10
-  damage: 10
+  damage: 50
 --- !u!82 &7747510797894570735
 AudioSource:
   m_ObjectHideFlags: 0

@@ -2,17 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class END : MonoBehaviour
+
+public class TEXTSTART : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
-    {
-        SceneManager.LoadScene("END");
-    }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             SceneManager.LoadScene(2);
-        }
+        }    
     }
 }
